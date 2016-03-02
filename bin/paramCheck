@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 host port"
+    exit 1
+fi
+
+#!/bin/bash
+
+if [ -z "$1" -o -z "$2" ]; then
+    echo "Usage: $0 mm/dd/yyyy 30/60/90";
+fi
